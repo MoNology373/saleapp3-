@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>BÁN HÀNG TRỰC TUYẾN</h1>
+    <ul>
+        <li>
+            <a href="{{ url_for('product_load') }}">Tất cả</a>
+        </li>
+        <li>
+            <a href="{{ url_for('product_load') }}">Điện thoại di động</a>
+        </li>
+        <li>
+            <a href="{{ url_for('product_load') }}">Máy tính bảng</a>
+        </li>
+    </ul>
+</body>
+</html>
